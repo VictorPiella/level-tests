@@ -1,1 +1,48 @@
-/* Here comes your styles */
+body {
+    height: 100vh;
+}
+
+body ul {
+    height: 33.3%;
+    display: flex;
+}
+
+body li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body li span {
+
+    font-size: 1rem;
+    padding: 0.5rem 0.9rem;
+    border-radius: 25px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    text-align: center;
+    -webkit-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.5);
+    -moz-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.5);
+    box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.5);
+    flex: 1;
+}
+
+/*
+ * ─── MEDIA QUERY ────────────────────────────────────────────────────────────────
+ */
+
+    
+ @media (max-width: 600px){
+
+    body ul {
+        display: flex;
+        flex-direction: column;
+        height: initial;
+    }
+
+    body ul li {
+        width: 100%;
+    }
+
+ }
