@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+$site-width: 1200px;
+$hero-width: 1600px;
+$profile-image-width: 300px;
+
+$gutter: 8px;
+$gray: #333;
+$primary: #1977F3;
+$primary-light: #EEF5FE;
+
+$small-breakpoint: 500px;
+$medium-breakpoint: 960px;
+
+.app {
+  * {
+    font-family: 'Inter', sans-serif;
+    box-sizing: border-box;
+  }
+
+
+  #navbar {
+    display: grid;
+    min-height: 100px;
+    grid-auto-flow: column;
+    background-color: $primary-light;
+    grid-gap: 1.5em;
+    padding: 0 40px;
+    grid-template-columns: minmax(min-content, 800px);
+    
+    
+    #logo {
+      display: grid;
+      justify-content: start;
+      align-content: center;
+      h1{
+        margin: 5px 0 ;
+      }
+      h2{
+        margin: 0;
+        font-size: 0.8rem;
+        font-style: italic;
+      }
+    }
+    
+    #links {
+      display: grid;
+      justify-content: right;
+      align-content: center;
+      grid-auto-flow: column;
+      grid-gap: 1.5em;
+      a {
+        text-decoration: none;
+        color: $gray;
+        border-radius: 8px;
+        padding: 10px 20px; 
+      }
+  
+      a:hover, .active {
+        background-color: $primary;
+        color: $primary-light;
+      }
+    }
+    
+  }
+  #main{
+    padding: 20px;
+    .hero{
+      width: 100%;
+    }
+
+    .container{
+      display: flex;
+      margin-top: 40px;
+      justify-content: center;
+      .headshot img{
+        border-radius: 50%;
+        overflow: hidden;
+        max-width: 300px;
+        margin: 20px;
+      }
+      .text{
+        max-width: 1000px;
+      }
+      
+    }
+  }
+  #footer {
+    display: grid;
+    min-height: 100px;
+    grid-auto-flow: column;
+    background-color: $primary;
+    grid-gap: 1.5em;
+    padding: 0 40px;
+    color: $primary-light;
+    .copyright {
+      display: grid;
+      justify-content: start;
+      align-content: center;
+    }
+    .footer-links {
+      display: grid;
+      justify-content: right;
+      align-content: center;
+      grid-auto-flow: column;
+      grid-gap: 1.5em;
+    }
+  }
+
+}
