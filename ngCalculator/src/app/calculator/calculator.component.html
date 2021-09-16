@@ -1,0 +1,35 @@
+<div class="calculator">
+
+    <div class="calculator-screen" type="text">{{input}}</div>
+    
+    <div class="calculator-keys">
+        <button type="button" class="all-clear" value="all-clear" (click)="clear()">AC</button>
+        <button class="operator" type="button" (click)="getRandom()">Random</button>
+        <button class="operator" type="button" (click)="pressBrackets()">( )</button>
+
+        <button class="operator" type="button" (click)="pressOperator('sin(')">sin()</button>
+        <button class="operator" type="button" (click)="pressOperator('tan(')">tan()</button>
+        <button class="operator" type="button" (click)="pressOperator('cos(')">cos()</button>
+        <button class="operator" type="button" (click)="pressOperator('/')">&divide;</button>
+
+        <button class="operator" type="button" (click)="pressNum('7')">7</button>
+        <button class="operator" type="button" (click)="pressNum('8')">8</button>
+        <button class="operator" type="button" (click)="pressNum('9')">9</button>
+        <button class="operator" type="button" (click)="pressOperator('*')">&times;</button>
+
+        
+        <button class="operator" type="button" (click)="pressNum('4')">4</button>
+        <button class="operator" type="button" (click)="pressNum('5')">5</button>
+        <button class="operator" type="button" (click)="pressNum('6')">6</button>
+        <button class="operator" type="button" (click)="pressOperator('-')">-</button>
+
+        <button class="operator" type="button" (click)="pressNum('1')">1</button>
+        <button class="operator" type="button" (click)="pressNum('2')">2</button>
+        <button class="operator" type="button" (click)="pressNum('3')">3</button>
+        <button class="operator" type="button" (click)="pressOperator('+')">+</button>
+
+        <button class="operator" type="button" (click)="pressNum('0')">0</button>
+        <button class="equal-sign" type="button" (click)="getAnswer()">=</button>
+    </div>
+
+  </div>
