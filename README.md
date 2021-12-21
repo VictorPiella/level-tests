@@ -11,6 +11,7 @@
 |Longest Subarray | Given an array, a, determine its longest subarray that sums to less than or equal to a given value k.| [Repo](https://github.com/VictorPiella/level-tests/tree/main/Longest%20Subarray)|
 |Angular questions| Test A,B,C with Angular questions (answered) | [Repo](https://github.com/VictorPiella/level-tests/tree/main/Angular%20questions)|
 |Angular CRUD| Hero App that works with firebase | [Repo](https://github.com/VictorPiella/CRUD-Angular)|
+|Angular Trigonometry Calculator|A simple calculator with the functions sin() cos() tang() and random number button by http that evaluates if the mathematical function is correct or not giving the result in affirmative case.|[Repo](https://github.com/VictorPiella/level-tests/tree/main/ngCalculator)|
 |React user fetch| React application that fetches and displays data from api | [Repo](https://github.com/VictorPiella/react-user-fetch)|
 |React SPA| App that shows Marvel and DC heroes respectively, using react Router, and various Hooks. | [Repo](https://github.com/VictorPiella/React-SPA-HeroesApp)|
 

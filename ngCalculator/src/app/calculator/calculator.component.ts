@@ -42,7 +42,6 @@ export class CalculatorComponent {
     this.input = this.input + op
   }
  
- 
   getRandom() {
     this.checkError();
     this.randomService.getRandom().subscribe((data: number) => {
@@ -53,7 +52,6 @@ export class CalculatorComponent {
   clear() {
     this.input = '';
   }
- 
  
   getAnswer() {
     try {
