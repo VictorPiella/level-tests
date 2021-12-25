@@ -1,1 +1,15 @@
-/* You can add global styles to this file, and also import other style files */
+//Settings
+@use "scss/settings/colors";
+@use "scss/settings/typography";
+
+// Generic
+@use "scss/generic/normalize";
+@use "scss/generic/box-sizing";
+
+// Atoms
+@use "scss/atoms/button";
+@use "scss/atoms/input";
+@use "scss/atoms/icon";
+
+// Molecules
+@use "scss/molecules/card";

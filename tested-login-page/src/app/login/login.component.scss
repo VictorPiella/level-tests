@@ -1,0 +1,20 @@
+.login-form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 500px;
+    background-color: chocolate;
+
+    .user-type-wrapper{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 20px;
+    }
+    
+    label, input{
+        display: flex;
+        margin: 20px 0;
+    }
+  
+}
