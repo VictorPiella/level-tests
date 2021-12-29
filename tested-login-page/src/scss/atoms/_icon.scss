@@ -1,0 +1,9 @@
+@import '../settings/colors';
+
+.icon-light-background{
+    padding: 10px 11px 12px;
+    background-color: $background-light-color;
+    border-radius: 50%;
+    font-size: 2rem;
+    margin: 20px 0;
+}

@@ -1,0 +1,23 @@
+.login-form{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+
+    .user-type-wrapper{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 20px;
+    }
+    
+    label, input{
+        display: flex;
+        margin: 20px 0;
+    }
+    a {
+        text-align: center;
+        padding: 20px;
+        display: block;
+    }
+  
+}

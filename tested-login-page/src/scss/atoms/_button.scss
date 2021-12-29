@@ -1,0 +1,9 @@
+@import '../settings/colors';
+
+.btn-primary{
+    width: 100%;
+    padding: 1rem;
+    background-color: $background-transparent;
+    border: 1px solid $border-color;
+    box-shadow: 3px 3px;
+}

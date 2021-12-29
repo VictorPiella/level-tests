@@ -1,0 +1,9 @@
+@import '../settings/colors';
+
+input{
+    padding: 1rem;
+    background-color: $background-transparent;
+    border: 1px solid $border-color;
+    flex: 1 1 auto;
+    width: 100%;
+}
