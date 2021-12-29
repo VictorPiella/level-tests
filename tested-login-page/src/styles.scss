@@ -1,11 +1,12 @@
-//Settings
-@use "scss/settings/colors";
-@use "scss/settings/typography";
 
 // Generic
 @use "scss/generic/reset";
 @use "scss/generic/normalize";
 @use "scss/generic/box-sizing";
+
+//Settings
+@use "scss/settings/colors";
+@use "scss/settings/typography";
 
 // Atoms
 @use "scss/atoms/button";
