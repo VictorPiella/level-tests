@@ -12,7 +12,7 @@
 |Angular questions| Test A,B,C with Angular questions (answered) | [Repo](https://github.com/VictorPiella/level-tests/tree/main/Angular%20questions)|
 |Angular CRUD| Hero App that works with firebase | [Repo](https://github.com/VictorPiella/CRUD-Angular)|
 |Angular Trigonometry Calculator|A simple calculator with the functions sin() cos() tang() and random number button by http that evaluates if the mathematical function is correct or not giving the result in affirmative case.|[Repo](https://github.com/VictorPiella/level-tests/tree/main/ngCalculator)|
-|Angular Tested Login Form|A simple login form with a state managed ngxs andtested with Testing library|[Repo](https://github.com/VictorPiella/level-tests/tree/tested-login-page/tested-login-page)|
+|Angular Tested Login Form|A simple login form with a state managed ngxs andtested with Testing library|[Repo](https://github.com/VictorPiella/level-tests/tree/main/tested-login-page)|
 |React user fetch| React application that fetches and displays data from api | [Repo](https://github.com/VictorPiella/react-user-fetch)|
 |React SPA| App that shows Marvel and DC heroes respectively, using react Router, and various Hooks. | [Repo](https://github.com/VictorPiella/React-SPA-HeroesApp)|
 
