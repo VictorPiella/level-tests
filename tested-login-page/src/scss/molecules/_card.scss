@@ -1,11 +1,11 @@
 @import "../settings/colors";
 
 .user-type-card {
-    flex: 1 1 auto;
+    flex: 1 1 0px;
     text-align: center;
     border: solid 1px $border-color;
     position: relative;
-    
+    padding: 20px 0 40px;
 }
 .active::after{
     content: '✔';
